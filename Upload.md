@@ -104,7 +104,7 @@ sudo env /bin/bash
 ![image](https://github.com/FakeLuci/Dockerlabs-Writeps/assets/96147300/bdb7e0b1-cad5-496f-82ee-3f15e00d9cdf)
 
 Teniendo en cuenta que estas máquinas van relacionadas para entrenar para el certificado eJPT esta bien ya que podemos entrenar la subida de archivos,
-lo cual es esencial en el hacking ademas de poder crear el nuestro y una escalada facil pero efectiva en los estudios para la eJPT.
+lo cual es esencial en el hacking ademas de poder crear nuestro payload y una escalada facil pero efectiva en los estudios para la eJPT.
 
 Dificultad 1/5
 Diversión 4/5
