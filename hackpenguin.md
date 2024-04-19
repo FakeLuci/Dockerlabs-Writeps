@@ -96,7 +96,7 @@ Pues si sabemos que la paswword de el archivo es "password1" pues entramos en el
 
 teniendo estas credenciales ahora podemos entrar por ssh:
 
-Bueno pues probando con el usuario pinguino no va, he probado con penguin y ahora si va, vamos a ver uqe hay dentro:
+Bueno pues probando con el usuario pinguino no va, he probado con penguin y ahora si va, vamos a ver que hay dentro:
 
 Una vez dentro utilizamos el siguiiente comando para mejorar la consola:
 
@@ -118,7 +118,7 @@ while true; do
 done
 ```
 
-y bueno de primeras ya vemos que se ejecuta muchisimas veces uspongo que estara cada segundo o algo así:
+y bueno de primeras ya vemos que se ejecuta muchisimas veces supongo que estara cada segundo o algo así:
 
 ![image](https://github.com/FakeLuci/Dockerlabs-Writeps/assets/96147300/e78f8f5a-4920-40b7-bcac-8cd18230f396)
 
