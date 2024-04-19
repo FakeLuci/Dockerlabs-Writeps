@@ -1,7 +1,7 @@
 Máquina domain
 
 
-Iniciamos ocn la rutina de reconocimiento con nmap:
+Iniciamos con la rutina de reconocimiento con nmap:
 
 ```
 # Nmap 7.94SVN scan initiated Thu Apr 18 20:17:52 2024 as: nmap -p- --open -sSCV --min-rate 5000 -vvv -n -Pn -oN Target 172.17.0.2
@@ -38,7 +38,7 @@ Host script results:
 
 Vemos un http,un servicio smb en el puerto 445 y en el 139
 
-Hacemos un reconocimiento de todo, vamos a empezar por el protocolo http que al parecer nos dice que esta corriendo smba, he probado a fuzzeartanto directorios como subdominios y nada, vamos a ver 
+Hacemos un reconocimiento de todo, vamos a empezar por el protocolo http que al parecer nos dice que esta corriendo samba, he probado a fuzzeartanto directorios como subdominios y nada, vamos a ver 
 los otros servicios el 139 y el 445
 
 ![image](https://github.com/FakeLuci/Dockerlabs-Writeps/assets/96147300/f46dfba4-e12c-411b-87bb-9d68db0ca333)
