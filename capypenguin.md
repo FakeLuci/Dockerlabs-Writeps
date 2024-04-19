@@ -29,7 +29,7 @@ Ahora hacemos la explotación con medusa:
 
 ![image](https://github.com/FakeLuci/Dockerlabs-Writups/assets/96147300/c594fb6a-0121-4880-866f-0080f0f46856)
 
-y nos encuentra la contraseña de la base de datos mysql, vamos a meternos dentro a ver uqe hay:
+y nos encuentra la contraseña de la base de datos mysql, vamos a meternos dentro a ver que hay:
 
 Dentro de la base de datos encontramos unas credenciales, vamos a probarlas en el ssh:
 
