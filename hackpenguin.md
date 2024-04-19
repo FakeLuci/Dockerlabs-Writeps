@@ -70,7 +70,7 @@ Configuramos el script y encontramos que la contraseña es chocolate:
 ![image](https://github.com/FakeLuci/Dockerlabs-Writeps/assets/96147300/5a02c44d-d5df-49ea-89f7-ffdb337598ee)
 
 Al parecer hemos extraido un archivo penguin.kdbx, sinceramente no tengo ni idea de que es un archivo .kdbx, investigando he encontrado que
-es un archivo de keypass, pues bueno vamos a descargarnos keypass para ver que hay dentro:
+es un archivo de keepass, pues bueno vamos a descargarnos keepass para ver que hay dentro:
 
 Intentamos entrar al archivo de keepas para ver uqe hay dentro:
 
