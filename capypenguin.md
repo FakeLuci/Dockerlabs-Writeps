@@ -15,11 +15,11 @@ PORT     STATE SERVICE REASON
 MAC Address: 02:42:AC:11:00:02 (Unknown)
 ```
 
-Vemos un ssh uh http y un mysql, vamos a empezar enumerando el http:
+Vemos un ssh un http y un mysql, vamos a empezar enumerando el http:
 
 ![image](https://github.com/FakeLuci/Dockerlabs-Writups/assets/96147300/cb7ef27c-9c30-453f-bdd9-ed7738de3c71)
 
-Bueno teniendo en cuneta lo que nos dice la páguina web:
+Bueno teniendo en cuenta lo que nos dice la páguina web:
 
 ```
 tac /usr/share/wordlists/rockyou.txt > MiRockYou.txt
